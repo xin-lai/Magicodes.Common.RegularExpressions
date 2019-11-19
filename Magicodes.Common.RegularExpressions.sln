@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Common.RegularExpressions", "src\Magicodes.Common.RegularExpressions\Magicodes.Common.RegularExpressions.csproj", "{C717AFDC-8851-4835-9ACE-DBB0ABBB80C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "src\Tests\Tests.csproj", "{79F29F09-E64E-43D3-A4B6-A8FA3775A52D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{687253B5-DB1C-4E0B-BD35-2BF502F1F190}"
+	ProjectSection(SolutionItems) = preProject
+		common.props = common.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C717AFDC-8851-4835-9ACE-DBB0ABBB80C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C717AFDC-8851-4835-9ACE-DBB0ABBB80C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C717AFDC-8851-4835-9ACE-DBB0ABBB80C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C717AFDC-8851-4835-9ACE-DBB0ABBB80C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F29F09-E64E-43D3-A4B6-A8FA3775A52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F29F09-E64E-43D3-A4B6-A8FA3775A52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F29F09-E64E-43D3-A4B6-A8FA3775A52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F29F09-E64E-43D3-A4B6-A8FA3775A52D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA0538BD-FF6E-4816-BA55-A6C692C67F41}
+	EndGlobalSection
+EndGlobal
